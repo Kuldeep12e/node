@@ -6,7 +6,7 @@ const route = require('./routes/routes')
 const database = require('./config/database');
 const { signup } = require('./controller/user');
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT 
 
 app.use(express.json());
 app.use(cookieParser());
